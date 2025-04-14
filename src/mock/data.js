@@ -35,6 +35,15 @@ const products = [
     description: "Gafas de sol con montura oversize y protección UV400",
     category: "accesorios",
     discount: 20
+  },
+  {
+    id: 5,
+    name: "Gafas de playa",
+    price: 30.99,
+    image: "https://images.unsplash.com/photo-1511499767150-a48a237f0083?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=80",
+    description: "Gafas de sol con montura oversize y protección UV400",
+    category: "accesorios",
+    discount: 20
   }
 ];
 
