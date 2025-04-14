@@ -59,7 +59,7 @@ const ProductCard = ({ product }) => {
         </div>
         <p className="mt-2 text-gray-600 text-sm">{product.description}</p>
         <a 
-          href={`https://wa.me/521234567890?text=Hola!%20Quiero%20comprar%20el%20${encodeURIComponent(product.name)}`}
+          href={`https://wa.me/523271090436?text=Hola!%20Quiero%20comprar%20el%20${encodeURIComponent(product.name)}`}
           className={`mt-4 inline-flex items-center px-4 py-2 rounded-lg transition-all duration-300 ${isHovered ? 'bg-orange-600 text-white' : 'bg-orange-500 text-white'}`}
           target="_blank"
           rel="noopener noreferrer"
