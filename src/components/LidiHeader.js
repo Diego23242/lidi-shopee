@@ -22,7 +22,7 @@ const LidiHeader = () => {
   };
 
   return (
-    <header className={`fixed w-full z-50 overflow-x-hidden transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-white/90 backdrop-blur-sm py-4'}`}>
+    <header className={`fixed w-full z-50 transition-all duration-300 ${scrolled ? 'bg-white shadow-md py-2' : 'bg-white/90 backdrop-blur-sm py-4'}`}>
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <div className="w-10 h-10 bg-orange-500 rounded-full flex items-center justify-center transform hover:rotate-12 transition-transform">
