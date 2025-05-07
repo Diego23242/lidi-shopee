@@ -369,6 +369,177 @@ const products = [
     category: "accesorios",
     discount: 20
   },
+  {
+    id: 42,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo42.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 43,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo43.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 44,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo44.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 45,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo45.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 46,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo46.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 47,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo47.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 48,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo48.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 49,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo49.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 50,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo50.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 51,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo51.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 52,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo52.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 53,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo53.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 54,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo54.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 55,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo55.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 56,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo56.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 57,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo57.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 58,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo58.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 59,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo59.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
+  {
+    id: 60,
+    name: "Funda de Espejo",
+    price: 30.99,
+    image: "/img/fondo60.jpeg",
+    description: "Funda adorable y para llevar siempre contigo.",
+    category: "accesorios",
+    discount: 20
+  },
 ];
 
 export default products;

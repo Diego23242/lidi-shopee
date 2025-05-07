@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const ProductCard = ({ product }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [imageLoaded, setImageLoaded] = useState(false);
 
   return (
-    <div 
+    <motion.div
+    initial={{ opacity: 0, y: 50 }}  // aparece desde abajo
+    animate={{ opacity: 1, y: 0 }}   // se desliza hacia arriba
+    transition={{ duration: 0.6, ease: 'easeOut' }}  
       className={`bg-white rounded-xl shadow-md overflow-hidden transition-all duration-300 ${isHovered ? 'shadow-xl scale-105' : 'shadow-md'}`}
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
@@ -14,7 +18,7 @@ const ProductCard = ({ product }) => {
         {!imageLoaded && (
           <div className="absolute inset-0 bg-gray-200 animate-pulse flex items-center justify-center">
             <svg className="w-10 h-10 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path>
+              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>
           </div>
         )}
@@ -49,7 +53,9 @@ const ProductCard = ({ product }) => {
           <div className="flex flex-col items-end">
             {product.discount ? (
               <>
-                <span className="text-gray-400 text-sm line-through">${(product.price * 100 / (100 - product.discount)).toFixed(2)}</span>
+                <span className="text-gray-400 text-sm line-through">
+                  ${(product.price * 100 / (100 - product.discount)).toFixed(2)}
+                </span>
                 <span className="text-orange-500 font-bold">${product.price}</span>
               </>
             ) : (
@@ -65,13 +71,13 @@ const ProductCard = ({ product }) => {
           rel="noopener noreferrer"
         >
           <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 mr-2" viewBox="0 0 24 24" fill="currentColor">
-            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-6.29-3.423c.172.246.515.486.729.561.214.074.43.074.595-.037.166-.111.248-.26.124-.486-.124-.223-.533-.561-.744-.636-.21-.074-.43-.037-.594.074-.166.111-.248.26-.124.486.05.074.05.074.124.038" />
-            <path d="M12 2a10 10 0 0 1 10 10 10 10 0 0 1-10 10c-1.768 0-3.46-.425-5-1.19l-5.2 1.3 1.37-4.96C2.47 15.05 2 13.57 2 12A10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8c0 1.23.35 2.39.96 3.39l.12.2L5.5 18l3.08-.78.19-.12A8 8 0 0 0 12 4z" />
+            <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967..."></path>
+            <path d="M12 2a10 10 0 0 1 10 10..."></path>
           </svg>
           Pedir por WhatsApp
         </a>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
